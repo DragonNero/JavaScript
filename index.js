@@ -8,8 +8,10 @@ function getMilk(money) {
   console.log("moveUp");
   console.log("moveRight");
   console.log("moveRight");
-  var buyMilk = Math.floor(money/=1.5);
+
+  var buyMilk = Math.floor(money/1.5);
   console.log("I will buy with this money "+ buyMilk +" bottles of milk");
+
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("moveDown");
@@ -19,8 +21,11 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
+  return money % 1.5;  // Remainder of this division
 }
-getMilk(5);
+
+let change = getMilk(4);
+console.log("There is "+change+ " of change");
 
 
 // function lifeInWeeks(age) {
