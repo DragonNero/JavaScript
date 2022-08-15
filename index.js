@@ -48,3 +48,17 @@ lifeInWeeks(31)
 // Hint
 var n = Math.random();
 console.log(n);
+
+
+var you = prompt("What is your name?")
+var heShe = prompt("What is his/her name?")
+
+var n = Math.random();
+console.log(n);
+
+if (you === "Katia" && heShe ===  "Vincent") {
+  n = 1;
+}
+
+var yourMatch = n*100;
+alert("Your match is " + Math.round(yourMatch) + "%");
