@@ -55,10 +55,16 @@ var heShe = prompt("What is his/her name?")
 
 var n = Math.random();
 console.log(n);
+var yourMatch = (n*100) + 1;
 
-if (you === "Katia" && heShe ===  "Vincent") {
-  n = 1;
+if (yourMatch > 80 ) {
+  alert("Your match is " + Math.round(yourMatch) + "%. It's a miracle!");
 }
 
-var yourMatch = n*100;
-alert("Your match is " + Math.round(yourMatch) + "%");
+if (yourMatch < 80 && yourMatch >= 30 ) {
+  alert("Your match is " + Math.round(yourMatch) + "%. Bon!");
+}
+
+if (yourMatch < 30 ) {
+  alert("Your match is " + Math.round(yourMatch) + "%. It's Ok. ");
+  };
