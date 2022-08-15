@@ -46,3 +46,5 @@ lifeInWeeks(31)
 //
 //
 // Hint
+var n = Math.random();
+console.log(n);
