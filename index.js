@@ -82,5 +82,23 @@ if (BMI > 18.5 && BMI < 24.9) {
 if (BMI > 24.9) {
   return "Your BMI is " + BMI + ", so you are overweight."
 } }
-  
+
  bmiCalculator(65,1.6);
+
+
+
+
+ function checkLeapYear(year) {
+
+    //three conditions to find out the leap year
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+        console.log(year + ' is a leap year');
+    } else {
+        console.log(year + ' is not a leap year');
+    }
+}
+
+// take input
+const year = prompt('Enter a year:');
+
+checkLeapYear(year);
