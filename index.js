@@ -102,3 +102,5 @@ if (BMI > 24.9) {
 const year = prompt('Enter a year:');
 
 checkLeapYear(year);
+
+let fruits = ["Apple", "Orange", "Plum"];
