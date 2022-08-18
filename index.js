@@ -50,8 +50,8 @@ var n = Math.random();
 console.log(n);
 
 
-var you = prompt("What is your name?")
-var heShe = prompt("What is his/her name?")
+var you = prompt("What is your name?");
+var heShe = prompt("What is his/her name?");
 
 var n = Math.random();
 console.log(n);
@@ -104,3 +104,14 @@ const year = prompt('Enter a year:');
 checkLeapYear(year);
 
 let fruits = ["Apple", "Orange", "Plum"];
+
+
+var guestList = ["Angela", "Josh", "Vincent", "Dragon", "Gui", "Marko"];
+var you = prompt("What is your name?");
+var yes = guestList.includes(you);
+if (yes === true ) {
+  alert("You are welcome ");
+}
+else {
+  alert("Maybe next time ");
+};
