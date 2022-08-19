@@ -115,3 +115,10 @@ if (yes === true ) {
 else {
   alert("Maybe next time ");
 };
+
+
+
+function count100(x) {
+  x = x+1;
+
+}
