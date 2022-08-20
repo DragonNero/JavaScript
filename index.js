@@ -116,20 +116,11 @@ else {
   alert("Maybe next time ");
 };
 
-
-
-function count100(x) {
-  x = x+1;
-
-}
-
-
+//
+// fizzBuzz solution
 var output = [];
-var count = 1;
 
-function fizzBuzz(){
-  output.push(count);
-
+function fizzBuzz() {
+    output.push(output.length + 1);
+    console.log(output);
 }
-console.log(count);
-fizzBuzz();
