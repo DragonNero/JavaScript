@@ -122,3 +122,14 @@ function count100(x) {
   x = x+1;
 
 }
+
+
+var output = [];
+var count = 1;
+
+function fizzBuzz(){
+  output.push(count);
+
+}
+console.log(count);
+fizzBuzz();
