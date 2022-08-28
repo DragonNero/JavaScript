@@ -177,3 +177,36 @@ function fizzBuzz() {
   }
   console.log(output);
 }
+
+
+function divide (num1, num2) {
+    return num1 / num2;
+}
+
+divide(10,2);
+
+function subtract (num1, num2) {
+    return num1 - num2;
+}
+
+subtract(4,2);
+
+function add (num1, num2) {
+    return num1 + num2;
+}
+
+add(2,6);
+
+function multiply (num1, num2) {
+    return num1 * num2;
+}
+
+multiply(2,9);
+
+function calculator (num1, num2, operator) {
+    return operator(num1, num2);
+}
+
+calculator(2,3, add);
+
+calculator(3,8,divide);
