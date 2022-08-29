@@ -210,3 +210,23 @@ function calculator (num1, num2, operator) {
 calculator(2,3, add);
 
 calculator(3,8,divide);
+
+
+// Creatin Operators
+let roomKeeper1 = {
+  name: "Brenda",
+  age: 17,
+  yearsOfExperience: 5,
+  hasWorkPermit: true,
+  langueges: ["Chinese", "English", "French"]
+}
+// Created constructor function
+function RoomKeeper(name, age, yearsOfExperience, hasWorkPermit, languages) {
+  this.name = name;
+  this.age = age;
+  this.yearsOfExperience = yearsOfExperience;
+  this.hasWorkPermit = hasWorkPermit;
+  this.languages = languages;
+}
+
+let roomKeeper1 = new RoomKeeper("Brenda", 29, 5, true, ["English", "French"]);
