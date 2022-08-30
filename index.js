@@ -227,6 +227,10 @@ function RoomKeeper(name, age, yearsOfExperience, hasWorkPermit, languages) {
   this.yearsOfExperience = yearsOfExperience;
   this.hasWorkPermit = hasWorkPermit;
   this.languages = languages;
+  this.cleaning = function () {
+    alert("Cleaning in progress... ")
+  }
 }
 
 let roomKeeper1 = new RoomKeeper("Brenda", 29, 5, true, ["English", "French"]);
+roomKeeper1.cleaning();
